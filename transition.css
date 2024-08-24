@@ -1,0 +1,5 @@
+.container{transition-duration:0.6;
+             transition-property: all;
+            
+              }
+              .container :hover{background-color: aliceblue;}
