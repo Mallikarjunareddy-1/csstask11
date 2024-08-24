@@ -1,0 +1,32 @@
+img{
+    width: 40px;
+  }
+  #checkbox{
+    display: none;
+  }
+  .content>a{
+    display: flex;
+   
+    background-color:grey;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    flex-direction: column;
+    
+  }
+  .content{
+   
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    
+  }
+  #checkbox:checked+.content{
+    max-height: 300px;
+  }
+  
+    
